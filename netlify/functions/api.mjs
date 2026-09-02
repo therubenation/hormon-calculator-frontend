@@ -1,4 +1,4 @@
-const BACKEND = 'http://188.138.38.172:8080';
+const BACKEND = 'https://hclab-api.rubensteijn.de';
 
 export default async (req) => {
   const { pathname, search } = new URL(req.url);
